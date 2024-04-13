@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="vue" level="application" />
+    <orderEntry type="library" name="search" level="application" />
+    <orderEntry type="library" name="docsify-tabs" level="application" />
+    <orderEntry type="library" name="docsify-pagination" level="application" />
+    <orderEntry type="library" name="docsify-copy-code" level="application" />
+    <orderEntry type="library" name="docsify-sidebar-collapse" level="application" />
+    <orderEntry type="library" name="dark" level="application" />
+    <orderEntry type="library" name="buble" level="application" />
+    <orderEntry type="library" name="docsify" level="application" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="980154d6-218f-4b6f-903d-63ab8ac6f636" />
+  </component>
+</module>
