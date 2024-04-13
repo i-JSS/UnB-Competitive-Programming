@@ -2,7 +2,7 @@
 
 Este repositório destina-se a armazenar a maioria das minhas listas a partir do quarto semestre e possivelmente outras informações relevantes.
 
-## [Fundamento de Arquitetura de Computadores](Questoes-FACT/Geral.md)
+## [Fundamento de Arquitetura de Computadores](./docs/Questoes-FACT/GeralREADME.md)
 - Semestre 2023.2 (Tiago)
 
 ## [Estrutura de Dados e Algoritimos]()
