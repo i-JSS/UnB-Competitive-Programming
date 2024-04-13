@@ -1,17 +1,18 @@
-# RISC-V CÓDIGOS
+# UnB - Engenharia de Software (5/10)
 
-Este repositório é dedicado aos meus códigos em RISC-V.
+Este repositório destina-se a armazenar a maioria das minhas listas a partir do quarto semestre e possivelmente outras informações relevantes.
 
-- [Lista 1](./Questoes/L1-A.md)
-    - [Questão A](./Questoes/L1-A.md)
-    - [Questão B](./Questoes/L1-B.md)
-- [Lista 2](./Questoes/L2-A.md)
-    - [Questão A](./Questoes/L2-A.md)
-    - [Questão B](./Questoes/L2-B.md)
-- [Lista 3](./Questoes/L3-A.md)
-    - [Questão A](./Questoes/L3-A.md)
-    - [Questão B](./Questoes/L3-B.md)
-- [Lista 4](./Questoes/L4-A.md)
-    - [Questão A](./Questoes/L4-A.md)
-    - [Questão B](./Questoes/L4-B.md)
-- [Questão Extra](./Questoes/LE1-A.md)
+## [Fundamento de Arquitetura de Computadores](Questoes-FACT/Geral.md)
+  - Semestre 2023.2 (Tiago)
+
+## [Estrutura de Dados e Algoritimos]()
+  - Semestre 2023.2 (Rose)
+
+## [Estrutura de Dados 2]()
+  - Semestre 2024.1 (John)
+
+## [Matemática Discreta 2]()
+  - Semestre 2023.2 (Bernardini)
+
+## [Compiladores]()
+  - Semestre 2024.1 (Ribas)
