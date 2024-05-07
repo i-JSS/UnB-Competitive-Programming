@@ -1,4 +1,8 @@
-* [JSS](/)
+<div style="margin: 0 auto; width: fit-content; font-size: 2vw">A-Moj</div>
+
+* [A-Moj](/)
+
+* [Manual](/)
 
 * [FAC](Questoes-FACT/Geral.md)
     - Lista 1
