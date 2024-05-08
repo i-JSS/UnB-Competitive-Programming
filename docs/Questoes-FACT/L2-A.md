@@ -1,13 +1,16 @@
+<center>
+
 # Fundamento e Arquitetura de Computadores
 
-## Lista 2 - Questão A
+</center>
+
+---
+
+# Operações aritméticas e lógicas básicas
 
 <!-- tabs:start -->
 
 #### **Questão**
-
-
-# Operações aritméticas e lógicas básicas
 
 Como um primeiro contato neste mundo de programação, convidamos você a testar as operações aritméticas e lógicas básicas.
 

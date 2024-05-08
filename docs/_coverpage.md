@@ -2,7 +2,7 @@
 # A-Moj
 
 
-[Como Usar](https://github.com/docsifyjs/docsify/)
-[Procurar Quest](#docsify)
+[Como Usar](/#BEM-VINDO)
+[Procurar Questão](Documentos/Manual#MANUAL)
 
 ![logo](assets/img_1.png)

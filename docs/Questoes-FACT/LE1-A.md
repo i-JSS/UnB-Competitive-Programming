@@ -1,12 +1,16 @@
+<center>
+
 # Fundamento e Arquitetura de Computadores
 
-## Questão Extra
+</center>
+
+---
+
+# Dissecando um Float
 
 <!-- tabs:start -->
 
 #### **Questão**
-
-# Dissecando um Float
 
 Neste exercício, você colocará em prática alguns conhecimentos de representação de números racionais em um computador digital de acordo com a norma IEEE-754.
 

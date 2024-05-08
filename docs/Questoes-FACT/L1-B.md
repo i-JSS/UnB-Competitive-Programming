@@ -1,12 +1,16 @@
+<center>
+
 # Fundamento e Arquitetura de Computadores
 
-## Lista 1 - Questão B
+</center>
+
+---
+
+# Soma 2
 
 <!-- tabs:start -->
 
 #### **Questão**
-
-# Soma 2
 
 **Entrada**
 

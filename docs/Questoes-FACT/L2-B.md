@@ -1,12 +1,16 @@
+<center>
+
 # Fundamento e Arquitetura de Computadores
 
-## Lista 2 - Questão B
+</center>
+
+---
+
+# Maior número
 
 <!-- tabs:start -->
 
 #### **Questão**
-
-# Maior número
 
 O objetivo neste exercício é simples: você deve ler *n* números e determinar o maior entre eles.
 

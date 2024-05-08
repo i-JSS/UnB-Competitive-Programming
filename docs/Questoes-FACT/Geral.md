@@ -1,17 +1,21 @@
-# FUNDAMENTO E ARQUITETURA DE COMPUTADORES
+<center>
+
+# Fundamento e Arquitetura de Computadores
+
+</center>
+
+---
 
 Manual de uso...
 
-- Lista 1
-    - [A](Questoes-FACT/L1-A.md)
-    - [B](Questoes-FACT/L1-B.md)
-- Lista 2
-    - [A](Questoes-FACT/L2-A.md)
-    - [B](Questoes-FACT/L2-B.md)
-- Lista 3
-    - [A](Questoes-FACT/L3-A.md)
-    - [B](Questoes-FACT/L3-B.md)
-- Lista 4
-    - [A](Questoes-FACT/L4-A.md)
-    - [B](Questoes-FACT/L4-B.md)
-- [Q. Extra](Questoes-FACT/LE1-A.md)
+A FAZER
+
+- [Olá Mundo](Questoes-FACT/L1-A.md)
+- [Soma 2](Questoes-FACT/L1-B.md)
+- [Operações aritméticas e lógicas básicas](Questoes-FACT/L2-A.md)
+- [Maior número](Questoes-FACT/L2-B.md)
+- [Vestibular](Questoes-FACT/L3-A.md)
+- [Maiúsculas e minúsculas](Questoes-FACT/L3-B.md)
+- [Teste de primalidade](Questoes-FACT/L4-A.md)
+- [Aritmética de Inteiros](Questoes-FACT/L4-B.md)
+- [Dissecando um Float](Questoes-FACT/LE1-A.md)

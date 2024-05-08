@@ -1,12 +1,16 @@
+<center>
+
 # Fundamento e Arquitetura de Computadores
 
-## Lista 4 - Questão B
+</center>
+
+---
+
+# Aritmética de Inteiros
 
 <!-- tabs:start -->
 
 #### **Questão**
-
-# Aritmética de Inteiros
 
 Neste exercício, você colocará em prática alguns conhecimentos de aritmética de inteiros através de um problema conhecido como exponenciação modular.
 

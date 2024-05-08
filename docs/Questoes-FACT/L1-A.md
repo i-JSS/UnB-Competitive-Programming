@@ -1,12 +1,16 @@
+<center>
+
 # Fundamento e Arquitetura de Computadores
 
-## Lista 1 - Questão A
+</center>
+
+---
+
+# Olá Mundo
 
 <!-- tabs:start -->
 
 #### **Questão**
-
-# Olá Mundo
 
 Olá!
 

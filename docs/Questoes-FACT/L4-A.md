@@ -1,12 +1,16 @@
+<center>
+
 # Fundamento e Arquitetura de Computadores
 
-## Lista 4 - Questão A
+</center>
+
+---
+
+# Teste de primalidade
 
 <!-- tabs:start -->
 
 #### **Questão**
-
-# Teste de primalidade
 
 Neste exercício, você colocará em prática alguns conhecimentos de aritmética de inteiros através do teste de primalidade. Para este problema, você deverá implementar um programa que leia um número inteiro *a*. Em seguida, você deverá testar
 

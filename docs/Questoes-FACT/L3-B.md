@@ -1,12 +1,16 @@
+<center>
+
 # Fundamento e Arquitetura de Computadores
 
-## Lista 3 - Questão B
+</center>
+
+---
+
+# Maiúsculas e minúsculas
 
 <!-- tabs:start -->
 
 #### **Questão**
-
-# Maiúsculas e minúsculas
 
 Sua tarefa neste exercício é trabalhar com a conversão de caixa de strings: maiúsculas e minúsculas.
 
