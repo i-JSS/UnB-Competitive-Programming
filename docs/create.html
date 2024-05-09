@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Arquivo Markdown</title>
+</head>
+<body>
+<label>Nome da Disciplina:</label><br>
+<input type="text" id="nomeD" name="nome"><br><br>
+
+<label>Nome da Questão:</label><br>
+<input type="text" id="nomeQ" name="nome"><br><br>
+
+<label >Link do PDF para Questão:</label><br>
+<input type="text" id="linkQ" name="nome"><br><br>
+
+<label >Extensão do Código:</label><br>
+<input type="text" id="extC" name="nome" placeholder="c, java..."><br><br>
+
+<label for="conteudo">Código:</label><br>
+<textarea id="conteudo" name="conteudo" rows="4" cols="50"></textarea><br><br>
+
+<button  id="botaoCriar">Gerar Arquivo MarkDown</button>
+
+<script>
+    let bt = document.getElementById("botaoCriar");
+    bt.addEventListener("click", criarArquivoMarkdown);
+    function criarArquivoMarkdown() {
+        const nomeDisciplina = document.getElementById('nomeD').value;
+        const nomeQuestao = document.getElementById('nomeQ').value;
+        const linkQuestao = document.getElementById('linkQ').value;
+        const extensaoCodigo = document.getElementById('extC').value;
+        const codigo = document.getElementById('conteudo').value;
+
+        const conteudoMarkdown =
+            `
+<center>
+
+# ${nomeDisciplina}
+
+</center>
+
+---
+
+# ${nomeQuestao}
+
+<!-- tabs:start -->
+
+#### **Questão**
+
+\`\`\`pdf
+${linkQuestao}
+\`\`\`
+
+#### **Código**
+
+\`\`\`${extensaoCodigo}
+${codigo}
+\`\`\`
+
+<!-- tabs:end -->
+
+`
+        ;
+        const nome =  (Math.floor(Math.random()/Math.random() * 100000000000000))+'.md';
+        const blob = new Blob([conteudoMarkdown], { type: 'text/markdown' });
+        const url = URL.createObjectURL(blob);
+
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = nome;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }
+</script>
+</body>
+</html>
