@@ -95,7 +95,7 @@ ${codigo}
 <!-- tabs:end -->
 
 `;
-                        const nome =   nomeQuestao + (Math.floor(Math.random()*(898))+100) + '.md';
+                        const nome =   nomeQuestao.replace(/\s/g, "") + (Math.floor(Math.random()*(898))+100) + '.md';
                         const blob = new Blob([conteudoMarkdown], { type: 'text/markdown' });
                         const url = URL.createObjectURL(blob);
                         const a = document.createElement('a');
