@@ -17,7 +17,7 @@
   - [Escalonador round-robin](Questoes/C/escalonadorround-robin283.md)
   - [Processo Zumbi](Questoes/C/criandoumzumbi183.md)
   - [Timed Shell](Questoes/C/timedmini-shell287.md)
-  - [Distribuição de carga de Trabalho](Questoes/C/distribuicaodetrabalho:pthreadsemutex917.md)
+  - [Distribuição de carga de Trabalho](Questoes/C/distribuicaodetrabalhopthreadsemutex798.md)
   - 
 * [C++](Questoes/C/Geral.md)
   - [Escalonador round-robin](Questoes/C/escalonadorround-robin283.md)
