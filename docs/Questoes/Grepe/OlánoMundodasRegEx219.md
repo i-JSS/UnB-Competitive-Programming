@@ -244,7 +244,7 @@ Author: Bruno Ribeiro
 
 #### **Código**
 
-```regex
+```regexp
 [Oo][lL][aáÁAÃã] [Mm][Uu][Nn][Dd][oOÓó]
 ```
 

@@ -264,7 +264,7 @@ Author: Igor Penha
 
 #### **Código**
 
-```grepe
+```regexp
 ^([0-9]+)$
 ```
 

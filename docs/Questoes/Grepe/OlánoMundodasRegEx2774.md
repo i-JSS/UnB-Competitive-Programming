@@ -262,7 +262,7 @@ Author: Bruno Ribeiro
 
 #### **Código**
 
-```grepe
+```regexp
 [Oo][lL][aáÁAÃã][ ][Mm][Uu][Nn][Dd][oOÓó][!.]?
 ```
 

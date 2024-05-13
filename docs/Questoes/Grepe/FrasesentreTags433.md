@@ -6,13 +6,13 @@
 
 ---
 
-# Ímpares com RegEx
+# Frases entre Tags
 
 <!-- tabs:start -->
 
 #### **Questão**
 
-Ímpares com RegEx
+Frases entre Tags
 
 
 
@@ -24,9 +24,21 @@ Preâmbulo
 
 
 
-Pare!
+No contexto da programação, uma "tag" geralmente se refere a um marcador ou rótulo que é utilizado para identificar
 
-Sua missão neste exercício é imprimir todas as linhas com ocorrências de pelo menos um número ímpar.
+e organizar elementos em um documento ou código-fonte. As tags são amplamente utilizadas em várias linguagens de
+
+marcação, bem como em outras áreas da programação.
+
+Para este exercício, consideraremos como tags quaisquer palavras que comecem e terminem uma sentença. Por palavras,
+
+entendemos qualquer sequência de caracteres alfanuméricos.
+
+Sua missão neste exercício é imprimir todas as linhas que sejam iniciadas e concluídas com um par de tags, ou seja, que
+
+tenham a mesma palavra como inicial e final. Todavia, caso haja outra ocorrência desta palavra no intermédio da frase, a
+
+tag é inválida.
 
 Para isso, escreva uma expressão regular (
 
@@ -62,7 +74,7 @@ será o equivalente a execução do seguinte comando no terminal em ambiente Uni
 
 
 
-$ grep -E
+$ grep -P
 
  
 
@@ -158,9 +170,9 @@ D
 
 0
 
-) linha encontradas em que hajam pelo menos uma ocorrência de número
+) linha encontradas em que hajam de um par de tags, propriamente como o
 
-ímpar.
+definido.
 
 
 
@@ -172,27 +184,15 @@ Exemplo de entrada
 
 
 
-Vamos contar até 10?
+<teste> Isso é um teste. <teste>
 
-Só sei contar até 5.
+Deu certo? Deu
 
+e agora?
 
+01 00 01
 
-Saída para o exemplo acima
-
-
-
-Só sei contar até 5.
-
-
-
-Exemplo de entrada
-
-
-
-Vamos contar até 21?
-
-Só sei contar até 10.
+oi Deu certo? Deu
 
 
 
@@ -200,7 +200,9 @@ Saída para o exemplo acima
 
 
 
-Vamos contar até 21?
+Deu certo? Deu
+
+01 00 01
 
 
 
@@ -213,7 +215,7 @@ Author: Bruno Ribeiro
 #### **Código**
 
 ```regexp
-^((.*[0-9]*[13579][^0-9]+.*)||.*[0-9]*[13579])$
+^(\w+)(?:(?!\1).)*\1$
 ```
 
 <!-- tabs:end -->

@@ -6,17 +6,17 @@
 
 ---
 
-# Ímpares com RegEx
+# Validação dos horários
 
 <!-- tabs:start -->
 
 #### **Questão**
 
-Ímpares com RegEx
+Validação dos horários
 
 
 
-Bruno Ribeiro
+Igor Penha
 
 
 
@@ -24,9 +24,19 @@ Preâmbulo
 
 
 
-Pare!
+Bem-vindo!
 
-Sua missão neste exercício é imprimir todas as linhas com ocorrências de pelo menos um número ímpar.
+Na cidade de buglândia, um lugar conhecido por sua tranquilidade, um incidente inusitado ocorreu: o relógio digital da
+
+praça central, que por décadas foi a referência para toda a população, subitamente começou a exibir horários malucos. Ao
+
+invés dos tradicionais "12:00", "13:45" e "17:30", os números digitais piscavam de forma caótica, mostrando sequências
+
+como "99:99", "25:73" e até mesmo "banana:abacaxi".
+
+Sua missão é implementar uma expressão regular, que imprima apenas os horários que estiverem na forma HH:MM. Para
+
+que, assim, os cidadãos possam retomar suas rotinas diárias com a confiança de saber exatamente que horas são.
 
 Para isso, escreva uma expressão regular (
 
@@ -130,7 +140,7 @@ N >
 
 0
 
-) linhas a serem analisadas.
+) linhas.
 
 
 
@@ -142,13 +152,13 @@ Seu programa deverá imprimir as
 
  
 
-D
+E
 
  
 
 (
 
-D
+E
 
  
 
@@ -158,9 +168,7 @@ D
 
 0
 
-) linha encontradas em que hajam pelo menos uma ocorrência de número
-
-ímpar.
+) linhas, que contenham os horários no formato desejável.
 
 
 
@@ -172,27 +180,15 @@ Exemplo de entrada
 
 
 
-Vamos contar até 10?
+00:29
 
-Só sei contar até 5.
+0029
 
+15:300
 
+20:07
 
-Saída para o exemplo acima
-
-
-
-Só sei contar até 5.
-
-
-
-Exemplo de entrada
-
-
-
-Vamos contar até 21?
-
-Só sei contar até 10.
+11:09 abs
 
 
 
@@ -200,11 +196,13 @@ Saída para o exemplo acima
 
 
 
-Vamos contar até 21?
+00:29
+
+20:07
 
 
 
-Author: Bruno Ribeiro
+Author: Igor Penha
 
 
 
@@ -213,7 +211,7 @@ Author: Bruno Ribeiro
 #### **Código**
 
 ```regexp
-^((.*[0-9]*[13579][^0-9]+.*)||.*[0-9]*[13579])$
+^((([0-1][0-9])|([2][0-3]))[:][0-5][0-9])$
 ```
 
 <!-- tabs:end -->
