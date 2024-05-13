@@ -104,6 +104,8 @@ ${codigo}
                         document.body.appendChild(a);
                         a.click();
                         document.body.removeChild(a);
+
+                        console.log("["+nomeQuestao+"](Questoes/Grepe/"+nome+")");
                     }).catch(error => {
                         console.error('Erro ao extrair texto do PDF:', error);
                     });

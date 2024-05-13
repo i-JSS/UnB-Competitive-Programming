@@ -26,10 +26,12 @@
   - [Distribuição de carga de Trabalho](Questoes/C/distribuicaodetrabalho:pthreadsemutex917.md)
 
 * [Grepe](Questoes/C/Geral.md)
-  - [Escalonador round-robin](Questoes/C/escalonadorround-robin283.md)
-  - [Processo Zumbi](Questoes/C/criandoumzumbi183.md)
-  - [Timed Shell](Questoes/C/timedmini-shell287.md)
-  - [Distribuição de carga de Trabalho](Questoes/C/distribuicaodetrabalho:pthreadsemutex917.md)
+  - [Olá no Mundo das RegEx](Questoes/Grepe/OlánoMundodasRegEx219.md)
+  - [Olá no Mundo das RegEx 2](Questoes/Grepe/OlánoMundodasRegEx2774.md)
+  - [Números Positivos](Questoes/Grepe/NúmerosPositivos396.md)
+  - [Números Positivos ou Não](Questoes/Grepe/NúmerosPositivosouNão697.md)
+  - [Ímpares com RegEx](Questoes/Grepe/ÍmparescomRegEx746.md)
+  - [Pares com RegEx](Questoes/Grepe/ParescomRegEx312.md)
 
 
 * [Gerador MD](/create.html)
