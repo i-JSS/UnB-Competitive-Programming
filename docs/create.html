@@ -1,41 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criar Arquivo Markdown</title>
+    <style>
+        .inputQ, select, #botaoCriar, #conteudo{
+            width: 100%;
+            padding: 1vw;
+            border-radius: 1vw;
+        }
+        .labelQ{
+            font-size: 120%;
+        }
+    </style>
+<!--    <script src="./Documentos/olamundo.pdf"></script>-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>-->
 </head>
 <body>
-<label>Nome da Disciplina:</label><br>
-<input type="text" id="nomeD" name="nome"><br><br>
+<center>
+    <h1>
+        <a class="anchor"><span>Gerador de MD</span></a>
+    </h1>
+</center>
+<hr>
 
-<label>Nome da Questão:</label><br>
-<input type="text" id="nomeQ" name="nome"><br><br>
+<label class="labelQ">Nome da Disciplina:</label><br>
+<input class="inputQ" type="text" id="nomeD"><br><br>
 
-<label >Link do PDF para Questão:</label><br>
-<input type="text" id="linkQ" name="nome"><br><br>
+<label class="labelQ">Nome da Questão:</label><br>
+<input class="inputQ" type="text" id="nomeQ"><br><br>
 
-<label >Extensão do Código:</label><br>
-<input type="text" id="extC" name="nome" placeholder="c, java..."><br><br>
+<label class="labelQ">Link do PDF para Questão:</label><br>
+<input class="inputQ" type="text" id="linkQ"><br><br>
 
-<label for="conteudo">Código:</label><br>
-<textarea id="conteudo" name="conteudo" rows="4" cols="50"></textarea><br><br>
+<label class="labelQ">Extensão do Código:</label><br>
+<select id="extC">
+    <option value="c">c</option>
+    <option value="cpp">c++</option>
+    <option value="grepe">grepe</option>
+    <option value="asm">asm</option>
+</select><br><br>
 
-<button  id="botaoCriar">Gerar Arquivo MarkDown</button>
+<label class="labelQ" for="conteudo">Código:</label><br>
+<textarea id="conteudo" rows="30" cols="50"></textarea><br><br>
+
+<button id="botaoCriar">Gerar Arquivo MarkDown</button>
 
 <script>
     let bt = document.getElementById("botaoCriar");
-    bt.addEventListener("click", criarArquivoMarkdown);
-    function criarArquivoMarkdown() {
+    bt.addEventListener("click", ()=> {
         const nomeDisciplina = document.getElementById('nomeD').value;
         const nomeQuestao = document.getElementById('nomeQ').value;
         const linkQuestao = document.getElementById('linkQ').value;
+        // const linkQuestao = "./Documentos/olamundo.pdf";
         const extensaoCodigo = document.getElementById('extC').value;
         const codigo = document.getElementById('conteudo').value;
 
-        const conteudoMarkdown =
-            `
-<center>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = linkQuestao;
+        pdfjsLib.getDocument(linkQuestao).promise.then(pdf => {
+            const promessas = [];
+            for(let pageNum = 1; pageNum <= pdf.numPages; pageNum++){
+                promessas.push(
+                    pdf.getPage(pageNum).then(page => {
+                        return page.getTextContent().then(textContent => {
+                            return textContent.items.map(item => item.str).join('\n');
+                        });
+                    })
+                );
+            }
+            Promise.all(promessas).then(textos => {
+                const textoPDF = textos.join('\n');
+                const conteudoMarkdown =
+`<center>
 
 # ${nomeDisciplina}
 
@@ -49,9 +85,7 @@
 
 #### **Questão**
 
-\`\`\`pdf
-${linkQuestao}
-\`\`\`
+${textoPDF}
 
 #### **Código**
 
@@ -61,19 +95,24 @@ ${codigo}
 
 <!-- tabs:end -->
 
-`
-        ;
-        const nome =  (Math.floor(Math.random()/Math.random() * 100000000000000))+'.md';
-        const blob = new Blob([conteudoMarkdown], { type: 'text/markdown' });
-        const url = URL.createObjectURL(blob);
+`;
+                const nome =  (Math.floor(Math.random()/Math.random() * 100000000000000))+'.md';
+                const blob = new Blob([conteudoMarkdown], { type: 'text/markdown' });
+                const url = URL.createObjectURL(blob);
 
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = nome;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-    }
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = nome;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            }).catch(error => {
+                console.error('Erro ao extrair texto do PDF:', error);
+            });
+        }).catch(error => {
+            console.error('Erro ao carregar o PDF:', error);
+        });
+    });
 </script>
 </body>
 </html>

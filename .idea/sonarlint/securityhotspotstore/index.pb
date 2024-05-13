@@ -2,3 +2,29 @@
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+I
+docs/Documentos/Manual.md,4\1\414b4d6e99d712cfd280025563fa603f71e03b45
+B
+docs/_coverpage.md,c\c\cce552ec68fac50edb2602f00d078d7429f919d1
+I
+docs/Questoes/FAC/L4-A.md,3\2\322aef7b86dc4c8b0f8b2e7bc822e8dae69f0353
+J
+docs/Questoes/FAC/LE1-A.md,1\d\1dc375b27b73f868acb861e0c82be3ddd2d98974
+I
+docs/Questoes/FAC/L3-B.md,0\e\0eae46bed97ecd4b0e8ad080fe8fde29da2b09b1
+I
+docs/Questoes/FAC/L2-A.md,0\9\094eab5f86857a7f3f9b3d67fee7949631bb472f
+I
+docs/Questoes/FAC/L2-B.md,a\d\ad536cf0badde24662f5ccdc75c611509d30d173
+I
+docs/Questoes/FAC/L3-A.md,1\0\104d1af96df157e24b769304069ecba80dab0078
+I
+docs/Questoes/FAC/L4-B.md,3\c\3cc3defbc9782971ecbd96961cb69522e3070ad8
+I
+docs/Questoes/FAC/L1-B.md,8\b\8b2f7aa89eccd649a10b17332b51dd4d80cd43ab
+J
+docs/Questoes/FAC/Geral.md,9\f\9f4d37bd736beaefd541466427afc8e311d66f5a
+I
+docs/Questoes/FS0/L1-A.md,1\a\1a4eca5efa9b1130a0d1c8e89dab7793ec25ea85
