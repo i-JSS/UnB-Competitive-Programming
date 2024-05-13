@@ -13,8 +13,6 @@
             font-size: 120%;
         }
     </style>
-<!--    <script src="./Documentos/olamundo.pdf"></script>-->
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>-->
 </head>
 <body>
 <center>
@@ -30,47 +28,48 @@
 <label class="labelQ">Nome da Questão:</label><br>
 <input class="inputQ" type="text" id="nomeQ"><br><br>
 
-<label class="labelQ">Link do PDF para Questão:</label><br>
-<input class="inputQ" type="text" id="linkQ"><br><br>
-
 <label class="labelQ">Extensão do Código:</label><br>
 <select id="extC">
-    <option value="c">c</option>
-    <option value="cpp">c++</option>
-    <option value="grepe">grepe</option>
-    <option value="asm">asm</option>
+    <option value="c">C</option>
+    <option value="cpp">C++</option>
+    <option value="grepe">Grepe</option>
+    <option value="asm">Risc-V | Mips</option>
 </select><br><br>
 
 <label class="labelQ" for="conteudo">Código:</label><br>
 <textarea id="conteudo" rows="30" cols="50"></textarea><br><br>
 
-<button id="botaoCriar">Gerar Arquivo MarkDown</button>
+<label class="labelQ">Link do PDF para Questão:</label><br>
+<input type="file" id="pdfInput" accept="application/pdf" class="inputQ"><br><br>
+
+<button id="botaoCriar">Gerar Arquivo Markdown</button>
 
 <script>
-    let bt = document.getElementById("botaoCriar");
-    bt.addEventListener("click", ()=> {
+    document.getElementById('botaoCriar').addEventListener('click', function() {
         const nomeDisciplina = document.getElementById('nomeD').value;
         const nomeQuestao = document.getElementById('nomeQ').value;
-        const linkQuestao = document.getElementById('linkQ').value;
-        // const linkQuestao = "./Documentos/olamundo.pdf";
         const extensaoCodigo = document.getElementById('extC').value;
         const codigo = document.getElementById('conteudo').value;
+        const arquivo = document.getElementById('pdfInput').files[0];
 
-        pdfjsLib.GlobalWorkerOptions.workerSrc = linkQuestao;
-        pdfjsLib.getDocument(linkQuestao).promise.then(pdf => {
-            const promessas = [];
-            for(let pageNum = 1; pageNum <= pdf.numPages; pageNum++){
-                promessas.push(
-                    pdf.getPage(pageNum).then(page => {
-                        return page.getTextContent().then(textContent => {
-                            return textContent.items.map(item => item.str).join('\n');
-                        });
-                    })
-                );
-            }
-            Promise.all(promessas).then(textos => {
-                const textoPDF = textos.join('\n');
-                const conteudoMarkdown =
+        if (arquivo) {
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                const pdfData = event.target.result;
+                pdfjsLib.getDocument({ data: pdfData }).promise.then(pdf => {
+                    const promessas = [];
+                    for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+                        promessas.push(
+                            pdf.getPage(pageNum).then(page => {
+                                return page.getTextContent().then(textContent => {
+                                    return textContent.items.map(item => item.str).join('\n\n');
+                                });
+                            })
+                        );
+                    }
+                    Promise.all(promessas).then(textos => {
+                        const textoPDF = textos.join('\n\n');
+                        const conteudoMarkdown =
 `<center>
 
 # ${nomeDisciplina}
@@ -96,23 +95,29 @@ ${codigo}
 <!-- tabs:end -->
 
 `;
-                const nome =  (Math.floor(Math.random()/Math.random() * 100000000000000))+'.md';
-                const blob = new Blob([conteudoMarkdown], { type: 'text/markdown' });
-                const url = URL.createObjectURL(blob);
-
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = nome;
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-            }).catch(error => {
-                console.error('Erro ao extrair texto do PDF:', error);
-            });
-        }).catch(error => {
-            console.error('Erro ao carregar o PDF:', error);
-        });
+                        const nome =   nomeQuestao + (Math.floor(Math.random()*(898))+100) + '.md';
+                        const blob = new Blob([conteudoMarkdown], { type: 'text/markdown' });
+                        const url = URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = nome;
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                    }).catch(error => {
+                        console.error('Erro ao extrair texto do PDF:', error);
+                    });
+                }).catch(error => {
+                    console.error('Erro ao carregar o PDF:', error);
+                });
+            };
+            reader.readAsArrayBuffer(arquivo);
+        } else {
+            console.error('Nenhum arquivo PDF selecionado.');
+        }
     });
 </script>
+
 </body>
 </html>
+
