@@ -12,6 +12,7 @@
   - [Teste de primalidade](Questoes/RISCV/testedeprimalidade812.md)
   - [Aritmética de Inteiros](Questoes/RISCV/aritimeticadeinteiros284.md)
   - [Dissecando um Float](Questoes/RISCV/dissecandoumfloat827.md)
+  - [ Palíndromos](Questoes/RISCV/Palíndromos933.md)
 
 * [C](Questoes/C/Geral.md)
   - [Escalonador round-robin](Questoes/C/escalonadorround-robin283.md)
