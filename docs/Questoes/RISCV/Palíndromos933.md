@@ -16,13 +16,9 @@ Palíndromos
 
 
 
-Palíndromo é uma palavra (ou até mesmo frase) que mesmo lida de trás para frente que
+Palíndromo é uma palavra (ou até mesmo frase) que mesmo lida de trás para frente que continua sendo a mesma palavra.
 
-continua sendo a mesma palavra.
-
-Sua tarefa neste exercício é escrever um programa que leia uma cadeia de caracteres e
-
-determine se é um palíndromo, ou não.
+Sua tarefa neste exercício é escrever um programa que leia uma cadeia de caracteres e determine se é um palíndromo, ou não.
 
 
 
@@ -30,21 +26,7 @@ Entrada
 
 
 
-A entrada é composta de duas linhas. A primeira é um inteiro
-
- 
-
-𝑁
-
- 
-
-que determina o tamanho da
-
-sequência de caracteres. A segunda linha é a sequência de caracteres propriamente dita. A
-
-cadeia de caracteres é composta apenas por letras minúsculas não acentuadas, e sem
-
-espaços.
+A entrada é composta de duas linhas. A primeira é um inteiro𝑁 que determina o tamanho da sequência de caracteres. A segunda linha é a sequência de caracteres propriamente dita. A cadeia de caracteres é composta apenas por letras minúsculas não acentuadas, e sem espaços.
 
 
 
@@ -52,9 +34,7 @@ Saída
 
 
 
-Seu programa deve imprimir uma única linha contendo 0 se a cadeia lida não for um
-
-palíndromo, ou 1 caso contrário.
+Seu programa deve imprimir uma única linha contendo 0 se a cadeia lida não for um palíndromo, ou 1 caso contrário.
 
 
 
@@ -106,47 +86,15 @@ motor
 
 Exemplo de Saída 3
 
-
-
-Palíndromos
-
- 
-
-https://moj.naquadah.com.br/contests/ta_fac_t3_2024_1/palindromo.html
-
-1 of 2
-
- 
-
-15/05/2024, 09:53
-
 0
 
 
+Author: Problema clássico (mojificação por John L. Gardenghi)
 
-Author: Problema clássico (moji
-
-fi
-
-cação por John L. Gardenghi)
-
-
-
-Palíndromos
-
- 
-
-https://moj.naquadah.com.br/contests/ta_fac_t3_2024_1/palindromo.html
-
-2 of 2
-
- 
-
-15/05/2024, 09:53
 
 #### **Código**
 
-```regexp
+```asm
 .data
 str1: .space 1000
 quebraLinha: .asciz "\n"
