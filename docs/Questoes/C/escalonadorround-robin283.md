@@ -138,9 +138,41 @@ Para performance, deve ser feita a implementação em C (submeter arquivo com ex
 
 #### **Código**
 
-```asm
+```c
 
+#include "stdio.h"
 
+int main(){
+    int tam, temp, tempAtual = 0, concluidos = 0;
+    scanf("%d%d", &tam, &temp);
+    int processos[tam+1][2];
+    for(int i = 0; i<tam; i++){
+        scanf("%d %d", &processos[i][0], &processos[i][1]);
+        processos[i][1]*=1000;
+    }
+    int inicio = 0;
+    while(concluidos < tam){
+        for(int i = inicio; i < tam; i++) {
+            int *p = &processos[i][1];
+            if(*p){
+                if(concluidos+1 == tam){
+                    printf("%d (%d)\n", processos[i][0], tempAtual+ *p);
+                    return 0;
+                }
+                *p -= temp;
+                tempAtual += temp;
+                if(*p<=0){
+                    tempAtual += *p;
+                    *p=0;
+                    printf("%d (%d)\n", processos[i][0], tempAtual);
+                    concluidos++;
+                    if(i==inicio) inicio++;
+                    // se encurtar o tempo fazer um swap com o primeiro (bubble sort inverso?)
+                }
+            }
+        }
+    }
+}
 
 ```
 
