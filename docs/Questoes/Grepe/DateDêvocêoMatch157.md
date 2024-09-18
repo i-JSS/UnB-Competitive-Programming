@@ -28,13 +28,17 @@
 
 **Saída**
 
- Seu programa deverá imprimir as E ( E ≥ 0 ) datas corretas de cada caso de teste. Exemplos Exemplo de entrada 14/06/2023 31/06/2023 29/02/2000 29/02/2022 12/34/5678 abcd 12345 ? FIM 
+ Seu programa deverá imprimir as E ( E ≥ 0 ) datas corretas de cada caso de teste. Exemplos 
+
+**Exemplo de entrada**
+
+ 14/06/2023 31/06/2023 29/02/2000 29/02/2022 12/34/5678 abcd 12345 ? FIM 
 
 
 
-**Saída**
+**Exemplo de saída**
 
- para o exemplo acima 14/06/2023 29/02/2000 
+ 14/06/2023 29/02/2000 
 
 Autor: author: Edson Alves, mojificado por Bruno Ribeiro 
 
@@ -42,6 +46,8 @@ Autor: author: Edson Alves, mojificado por Bruno Ribeiro
 
 ```grepe
 ((((0[1-9]|[12][0-9]|3[01])/(0[13578]|1[02]))|((0[1-9]|[12][0-9]|30)/(0[469]|11))|((0[1-9]|1[0-9]|2[0-8])/02))/((19[0-9]{2})|(20[01][0-9])|202[0-4]))|(29/02/(19((04|08)|[2468][048]|[13579][26])|20([02][048]|1[26])))
+
+
 ```
 
 <!-- tabs:end -->

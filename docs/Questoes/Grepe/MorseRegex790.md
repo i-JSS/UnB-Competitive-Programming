@@ -30,11 +30,15 @@
 
  O programa deve imprimir as linhas em que são mostrados números pares.
 
-Exemplos Exemplo de entrada ..---...-.-----------.. ..... 
+Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima .-----------.. 
+ ..---...-.-----------.. ..... 
+
+**Exemplo de saída**
+
+ .-----------.. 
 
 Autor: Leonardo Machado 
 
@@ -42,6 +46,8 @@ Autor: Leonardo Machado
 
 ```grepe
 ^(.{5}*((-----)|(\.\.---)|(\.\.\.\.-)|(-\.\.\.\.)|(---\.\.)))$
+
+
 ```
 
 <!-- tabs:end -->

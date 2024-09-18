@@ -28,15 +28,23 @@
 
 **Saída**
 
- Seu programa deverá imprimir as D ( D ≥ 0 ) linha encontradas em que hajam pelo menos uma ocorrência de número ímpar. Exemplos Exemplo de entrada Vamos contar até 10? Só sei contar até 5. 
+ Seu programa deverá imprimir as D ( D ≥ 0 ) linha encontradas em que hajam pelo menos uma ocorrência de número ímpar. Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima Só sei contar até 5. Exemplo de entrada Vamos contar até 21? Só sei contar até 10. 
+ Vamos contar até 10? Só sei contar até 5. 
 
-**Saída**
+**Exemplo de saída**
 
- para o exemplo acima Vamos contar até 21? 
+ Só sei contar até 5. 
+
+**Exemplo de entrada**
+
+ Vamos contar até 21? Só sei contar até 10. 
+
+**Exemplo de saída**
+
+ Vamos contar até 21? 
 
 Autor: Bruno Ribeiro 
 
@@ -44,6 +52,8 @@ Autor: Bruno Ribeiro
 
 ```grepe
 ^((.*[0-9]*[13579][^0-9]+.*)||.*[0-9]*[13579])$
+
+
 ```
 
 <!-- tabs:end -->

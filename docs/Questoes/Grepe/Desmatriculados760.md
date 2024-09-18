@@ -28,11 +28,15 @@
 
 **Saída**
 
- A saída deve imprimir os números de matrícula referentes aos alunos do ano 2021. Exemplos Exemplo de entrada 123456789 000000000020210000000000 2021123456789 22222222000000000002222222221111 
+ A saída deve imprimir os números de matrícula referentes aos alunos do ano 2021. Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima 000000000020210000000000 2021123456789 
+ 123456789 000000000020210000000000 2021123456789 22222222000000000002222222221111 
+
+**Exemplo de saída**
+
+ 000000000020210000000000 2021123456789 
 
 Autor: Leonardo Machado 
 
@@ -40,6 +44,8 @@ Autor: Leonardo Machado
 
 ```grepe
 ^(.*2021.*)$
+
+
 ```
 
 <!-- tabs:end -->

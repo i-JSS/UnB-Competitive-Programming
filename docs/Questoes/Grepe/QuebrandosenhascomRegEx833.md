@@ -32,6 +32,7 @@ Autor: Bruno Ribeiro
 
 ```grepe
 ^((b(b{2}*)(br|c)|r)(rb(b{2}*)(br|c)|(rr|b))*(rb(b{2}*))?|(b(b{2}*))?)$
+
 ```
 
 <!-- tabs:end -->

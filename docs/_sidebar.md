@@ -22,23 +22,26 @@
   - 
 * [C++](Questoes/C++/Geral.md)
 
-* Grepe
-  - [Olá no Mundo das RegEx](Questoes/Grepe/OlánoMundodasRegEx512.md)
-  - [Olá no Mundo das RegEx 2](Questoes/Grepe/OlánoMundodasRegEx2233.md)
-  - [Números Positivos](Questoes/Grepe/NúmerosPositivos718.md)
-  - [Números Positivos ou Não](Questoes/Grepe/NúmerosPositivosouNão763.md)
-  - [Ímpares com RegEx](Questoes/Grepe/ÍmparescomRegEx795.md)
-  - [Pares com RegEx](Questoes/Grepe/ParescomRegEx393.md)
-  - [Validação dos horários](Questoes/Grepe/Validaçãodoshorários297.md)
-  - [Desmatriculados](Questoes/Grepe/Desmatriculados281.md)
-  - [Aracnofobia](Questoes/Grepe/Aracnofobia355.md)
-  - [Fantática máquina de palavras](Questoes/Grepe/Fantáticamáquinadepalavras156.md)
-  - [Problema 101](Questoes/Grepe/Problema101400.md)
-  - [Morse Regex](Questoes/Grepe/MorseRegex912.md)
-  - [Palavras Censuradas](Questoes/Grepe/PalavrasCensuradas724.md)
-  - [Date: Dê você o Match](Questoes/Grepe/DateDêvocêoMatch198.md)
-  - [Frases entre Tags](Questoes/Grepe/FrasesentreTags949.md)
-  - [Quebrando senhas com RegEx](Questoes/Grepe/QuebrandosenhascomRegEx715.md)
+* Regex
+  - [Olá no Mundo das RegEx](Questoes/Grepe/OlánoMundodasRegEx348.md)
+  - [Olá no Mundo das RegEx 2](Questoes/Grepe/OlánoMundodasRegEx2275.md)
+  - [Números Positivos](Questoes/Grepe/NúmerosPositivos955.md)
+  - [Números Positivos ou Não](Questoes/Grepe/NúmerosPositivosouNão274.md)
+  - [Ímpares com RegEx](Questoes/Grepe/ÍmparescomRegEx797.md)
+  - [Pares com RegEx](Questoes/Grepe/ParescomRegEx156.md)
+  - [Validação dos horários](Questoes/Grepe/Validaçãodoshorários676.md)
+  - [Desmatriculados](Questoes/Grepe/Desmatriculados760.md)
+  - [Aracnofobia](Questoes/Grepe/Aracnofobia634.md)
+  - [Fantática máquina de palavras](Questoes/Grepe/Fantáticamáquinadepalavras226.md)
+  - [Problema 101](Questoes/Grepe/Problema101970.md)
+  - [Morse Regex](Questoes/Grepe/MorseRegex790.md)
+  - [Palavras Censuradas](Questoes/Grepe/PalavrasCensuradas459.md)
+  - [Date: Dê você o Match](Questoes/Grepe/DateDêvocêoMatch157.md)
+  - [Frases entre Tags](Questoes/Grepe/FrasesentreTags935.md)
+  - [Quebrando senhas com RegEx](Questoes/Grepe/QuebrandosenhascomRegEx833.md)
+
+* Pascal
+
 
 * [Gerador MD](/create.html)
 

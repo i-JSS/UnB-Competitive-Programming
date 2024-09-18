@@ -28,11 +28,15 @@
 
 **Saída**
 
- A saída deve imprimir as sequências que não possuem a subsequência 101. Exemplos Exemplo de entrada 1111111000000011111 000000111111100000010 101 1010101010101010101010 
+ A saída deve imprimir as sequências que não possuem a subsequência 101. Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima 1111111000000011111 000000111111100000010 
+ 1111111000000011111 000000111111100000010 101 1010101010101010101010 
+
+**Exemplo de saída**
+
+ 1111111000000011111 000000111111100000010 
 
 Autor: Leonardo Machado 
 
@@ -40,6 +44,8 @@ Autor: Leonardo Machado
 
 ```grepe
 ^(0+|(1+(0{2}|(0$)|$)))*$
+
+
 ```
 
 <!-- tabs:end -->

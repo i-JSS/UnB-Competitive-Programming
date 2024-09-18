@@ -28,11 +28,15 @@
 
 **Saída**
 
- Seu programa deverá imprimir as E ( E ≥ 0 ) strings Olá Mundo encontradas de cada caso de teste. Exemplos Exemplo de entrada Bruno Ribeiro disse Olá Mundo Bruno Ribas o respondeu com ola mundo 
+ Seu programa deverá imprimir as E ( E ≥ 0 ) strings Olá Mundo encontradas de cada caso de teste. Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima Olá Mundo ola mundo 
+ Bruno Ribeiro disse Olá Mundo Bruno Ribas o respondeu com ola mundo 
+
+**Exemplo de saída**
+
+ Olá Mundo ola mundo 
 
 Autor: Bruno Ribeiro 
 
@@ -40,6 +44,7 @@ Autor: Bruno Ribeiro
 
 ```grepe
 [Oo][lL][aáÁAÃã] [Mm][Uu][Nn][Dd][oOÓó]
+
 ```
 
 <!-- tabs:end -->

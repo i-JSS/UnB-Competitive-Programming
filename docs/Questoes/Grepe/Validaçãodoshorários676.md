@@ -28,11 +28,15 @@
 
 **Saída**
 
- Seu programa deverá imprimir as E ( E ≥ 0 ) linhas, que contenham os horários no formato desejável. Exemplos Exemplo de entrada 00:29 0029 15:300 20:07 11:09 abs 
+ Seu programa deverá imprimir as E ( E ≥ 0 ) linhas, que contenham os horários no formato desejável. Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima 00:29 20:07 
+ 00:29 0029 15:300 20:07 11:09 abs 
+
+**Exemplo de saída**
+
+ 00:29 20:07 
 
 Autor: Igor Penha 
 
@@ -40,6 +44,8 @@ Autor: Igor Penha
 
 ```grepe
 ^((([0-1][0-9])|([2][0-3]))[:][0-5][0-9])$
+
+
 ```
 
 <!-- tabs:end -->

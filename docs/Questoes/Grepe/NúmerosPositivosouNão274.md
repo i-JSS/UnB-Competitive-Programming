@@ -28,19 +28,25 @@
 
 **Saída**
 
- Seu programa deverá imprimir as E ( E ≥ 0 ) linhas que sejam compostas por somente 1 número. Exemplos Exemplo de entrada 0 12345 12a346 -1 Olá Mundo3 
+ Seu programa deverá imprimir as E ( E ≥ 0 ) linhas que sejam compostas por somente 1 número. Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima 0 -1 
-12345 E
-xemplo de entrada 
+ 0 12345 12a346 -1 Olá Mundo3 
+
+**Exemplo de saída**
+
+ 0 -1 12345 
+
+**Exemplo de entrada**
+
+ 
 
 223 421 12 800 12abc 22 44 bicicletas -21 -091 
 
-**Saída**
+**Exemplo de saída**
 
- para o exemplo acima 800 22 -21 -091 
+ 800 22 -21 -091 
 
 Autor: Igor Penha 
 
@@ -48,6 +54,8 @@ Autor: Igor Penha
 
 ```grepe
 ^(0|[-]?[0]*[1-9]+[0-9]*)$
+
+
 ```
 
 <!-- tabs:end -->

@@ -28,17 +28,25 @@
 
 **Saída**
 
- Seu programa deverá imprimir as E ( E ≥ 0 ) linhas que são compostas por somente 1 número positivo. Exemplos Exemplo de entrada 0 12345 12ab346 10 20 Ola Mundo3 7 
+ Seu programa deverá imprimir as E ( E ≥ 0 ) linhas que são compostas por somente 1 número positivo. Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima 0 12345 7 Exemplo de entrada 20 25 50 75 
+ 0 12345 12ab346 10 20 Ola Mundo3 7 
+
+**Exemplo de saída**
+
+ 0 12345 7 
+
+**Exemplo de entrada**
+
+ 20 25 50 75 
 
 5 15 papel 3 99 pizza 
 
-**Saída**
+**Exemplo de saída**
 
- para o exemplo acima 20 99 
+ 20 99 
 
 Autor: Igor Penha 
 
@@ -46,6 +54,8 @@ Autor: Igor Penha
 
 ```grepe
 ^([0-9]+)$
+
+
 ```
 
 <!-- tabs:end -->

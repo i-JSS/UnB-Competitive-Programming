@@ -28,11 +28,15 @@
 
 **Saída**
 
- Seu programa deverá imprimir as E ( E ≥ 0 ) palavras que possuam ao menos uma letra ' a ' . Exemplos Exemplo de entrada treinando regex compiladores eh irado Estou sem rede, logo sem peixe Fantastica fabrica de palavras 
+ Seu programa deverá imprimir as E ( E ≥ 0 ) palavras que possuam ao menos uma letra ' a ' . Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima treinando compiladores irado 
+ treinando regex compiladores eh irado Estou sem rede, logo sem peixe Fantastica fabrica de palavras 
+
+**Exemplo de saída**
+
+ treinando compiladores irado 
 
 Fantastica fabrica palavras 
 
@@ -42,6 +46,7 @@ Autor: Igor Penha
 
 ```grepe
 \<[^ \>\<]*[aA][^ \>\<]*\>
+
 
 ```
 

@@ -28,11 +28,15 @@
 
 **Saída**
 
- A saída deve imprimir as frases que formam a palavra aranha na sua sequência de caracteres. Exemplos Exemplo de entrada Ara ras N aoVoamNaC h uv a BomDiaSenhora A go raN ao Ha Volta EsqueciMeuGuardaChuva 
+ A saída deve imprimir as frases que formam a palavra aranha na sua sequência de caracteres. Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima ArarasNaoVoamNaChuva AgoraNaoHaVolta 
+ Ara ras N aoVoamNaC h uv a BomDiaSenhora A go raN ao Ha Volta EsqueciMeuGuardaChuva 
+
+**Exemplo de saída**
+
+ ArarasNaoVoamNaChuva AgoraNaoHaVolta 
 
 Autor: Leonardo Machado 
 
@@ -40,6 +44,8 @@ Autor: Leonardo Machado
 
 ```grepe
 ^(.*[aA].*[rR].*[aA].*[nN].*[hH].*[aA].*)$
+
+
 ```
 
 <!-- tabs:end -->

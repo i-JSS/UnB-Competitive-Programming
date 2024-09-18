@@ -28,11 +28,15 @@
 
 **Saída**
 
- Seu programa deverá imprimir E ( E ≥ 0 ) palavras encontradas dentre as D palavras das N linhas. Exemplos Exemplo de entrada O XXXfeito cXXXrou um caXXX. 
+ Seu programa deverá imprimir E ( E ≥ 0 ) palavras encontradas dentre as D palavras das N linhas. Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima XXXfeito cXXXrou caXXX 
+ O XXXfeito cXXXrou um caXXX. 
+
+**Exemplo de saída**
+
+ XXXfeito cXXXrou caXXX 
 
 Autor: Bruno Ribeiro 
 
@@ -40,6 +44,8 @@ Autor: Bruno Ribeiro
 
 ```grepe
 \<[^ \>\<]*[X][^ \>\<]*\>
+
+
 ```
 
 <!-- tabs:end -->

@@ -28,11 +28,15 @@
 
 **Saída**
 
- Seu programa deverá imprimir as D ( D ≥ 0 ) linha encontradas em que hajam de um par de tags, propriamente como o definido. Exemplos Exemplo de entrada <teste> Isso é um teste. <teste> Deu certo? Deu e agora? 01 00 01 oi Deu certo? Deu 
+ Seu programa deverá imprimir as D ( D ≥ 0 ) linha encontradas em que hajam de um par de tags, propriamente como o definido. Exemplos 
 
-**Saída**
+**Exemplo de entrada**
 
- para o exemplo acima Deu certo? Deu 01 00 01 
+ <teste> Isso é um teste. <teste> Deu certo? Deu e agora? 01 00 01 oi Deu certo? Deu 
+
+**Exemplo de saída**
+
+ Deu certo? Deu 01 00 01 
 
 Autor: Bruno Ribeiro 
 
@@ -40,6 +44,7 @@ Autor: Bruno Ribeiro
 
 ```grepe
 ^(\w+)(?:(?!\1).)*\1$
+
 ```
 
 <!-- tabs:end -->
