@@ -2,7 +2,7 @@
 
 * [Manual](Documentos/Manual)
 
-* [RISC-V](Questoes/RISCV/Geral.md)
+* RISC-V
   - [Olá Mundo](Questoes/RISCV/olamundo192.md)
   - [Soma 2](Questoes/RISCV/soma2210.md)
   - [Operações aritméticas e lógicas básicas](Questoes/RISCV/operacoesaritimeticaselogicasbasicas102.md)
@@ -14,13 +14,11 @@
   - [Dissecando um Float](Questoes/RISCV/dissecandoumfloat827.md)
   - [Palíndromos](Questoes/RISCV/Palíndromos933.md)
 
-* [C](Questoes/C/Geral.md)
+* C
   - [Escalonador round-robin](Questoes/C/escalonadorround-robin283.md)
   - [Processo Zumbi](Questoes/C/criandoumzumbi183.md)
   - [Timed Shell](Questoes/C/timedmini-shell287.md)
   - [Distribuição de carga de Trabalho](Questoes/C/distribuicaodetrabalhopthreadsemutex798.md)
-  - 
-* [C++](Questoes/C++/Geral.md)
 
 * Regex
   - [Aracnofobia](Questoes/Grepe/Aracnofobia634.md)
@@ -48,6 +46,11 @@
   - [Soma 2](Questoes/Pascal/Soma2844.md)
   - [Soma N](Questoes/Pascal/SomaN189.md)
 
+* Mepa
+  - [Gerando MEPA A](Questoes/Mepa/CompiladorPASCALGerandoMEPA551.md)
+  - [Gerando MEPA B](Questoes/Mepa/CompiladorPASCALGerandoMEPA108.md)
+  - [Gerando MEPA C](Questoes/Mepa/CompiladorPASCALGerandoMEPA204.md)
+  - [Gerando MEPA D](Questoes/Mepa/CompiladorPASCALGerandoMEPA650.md)
 
 * [Gerador MD](/create.html)
 
