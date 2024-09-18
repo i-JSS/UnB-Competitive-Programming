@@ -62,7 +62,28 @@
                         promessas.push(
                             pdf.getPage(pageNum).then(page => {
                                 return page.getTextContent().then(textContent => {
-                                    return textContent.items.map(item => item.str).join('\n\n');
+                                    let linhas = textContent.items.map(item => item.str);
+                                    if (pageNum === 1) linhas.shift();
+                                    linhas.pop();
+                                    let textoPagina = linhas.join('\n\n');
+
+                                    textoPagina = textoPagina.replace(/-\s*\n/g, '');
+                                    textoPagina = textoPagina.replace(/\s*\n\s*/g, ' ');
+
+                                    textoPagina = textoPagina.replace(/(Exemplo de Entrada) (\d+)/g, '\n\n**$1 $2**\n\n');
+                                    textoPagina = textoPagina.replace(/(Exemplo de Saída) (\d+)/g, '\n\n**$1 $2**\n\n');
+
+                                    textoPagina = textoPagina.replace(/(\d{2,} [DE])/g, '\n$1\n');
+
+                                    textoPagina = textoPagina.replace(/(?<!Exemplo de )Entrada/g, '\n\n**Entrada**\n\n');
+                                    textoPagina = textoPagina.replace(/(?<!Exemplo de )Saída/g, '\n\n**Saída**\n\n');
+                                    textoPagina = textoPagina.replace(/(?<!\n)\bPreâmbulo\b/g, '\n\n**Preâmbulo**\n\n');
+                                    textoPagina = textoPagina.replace(/(?<!\n)\bArquivo\b/g, '\n\n**Arquivo**\n\n');
+
+                                    textoPagina = textoPagina.replace(/(?<!\n)\bAutor\b/g, '\n\nAutor');
+                                    textoPagina = textoPagina.replace(/(?<!\n)\bAuthor\b/g, '\n\nAutor');
+
+                                    return textoPagina;
                                 });
                             })
                         );
