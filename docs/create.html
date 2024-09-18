@@ -73,7 +73,9 @@
                                     textoPagina = textoPagina.replace(/(Exemplo de Entrada) (\d+)/g, '\n\n**$1 $2**\n\n');
                                     textoPagina = textoPagina.replace(/(Exemplo de Saída) (\d+)/g, '\n\n**$1 $2**\n\n');
 
-                                    textoPagina = textoPagina.replace(/(\d{2,} [DE])/g, '\n$1\n');
+                                    textoPagina = textoPagina.replace(/(Exemplo de entrada)/g, '\n\n**$1**\n\n');
+                                    textoPagina = textoPagina.replace(/(Exemplos exemplo de entrada)/gi, '\n\n**Exemplos de entrada**\n\n');
+                                    textoPagina = textoPagina.replace(/(Saída para o exemplo acima)/gi, '\n\n**Exemplo de saída**\n\n');
 
                                     textoPagina = textoPagina.replace(/(?<!Exemplo de )Entrada/g, '\n\n**Entrada**\n\n');
                                     textoPagina = textoPagina.replace(/(?<!Exemplo de )Saída/g, '\n\n**Saída**\n\n');
