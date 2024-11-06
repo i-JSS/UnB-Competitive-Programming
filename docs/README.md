@@ -1,13 +1,16 @@
-<center>
+#### Imagine se algum maluco guardasse todas as questões já feitas por ele durante todo o curso, prazer a-moj :)
 
-# BEM-VINDO
-</center>
+## Lista de matérias concluidas
 
-
-<p style="text-indent: 2cm; text-align: justify;">O A-Moj é uma plataforma que oferece um vasto banco de questões no estilo juiz, permitindo aos usuários acessar uma variedade de problemas para prática e aprendizado. Com uma interface intuitiva, os estudantes e profissionais podem aprimorar suas habilidades em resolução de problemas.</p>
-
+* [Algoritmo e Programação de Computadores (20/100)](/Materias/apc.md)
+* [Estrutura de Dados 1 (0/100)]()
+* [Estrutura de Dados 2 (0/100)]()
+* [Fundamentos e Arquitetura de Computadores (100/100)](/Materias/fac.md)
+* [Fundamentos de Sistemas Operacionais (100/100)](/Materias/fso.md)
+* [Compiladores 1 (100/100)](/Materias/compilas.md)
 
 ---
+
 
 <center>
 
