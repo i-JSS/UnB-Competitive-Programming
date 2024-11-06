@@ -1,7 +1,5 @@
 * [](/)
-
 * [Manual](Documentos/Manual)
-
 * [Algoritmos e Programação de Comp](/Materias/apc.md)
   - [Olá Mundo](Questoes/C/OláMundo281.md)
   - [Soma 2](Questoes/C/Soma2216.md)
@@ -91,6 +89,17 @@
   - [Feiticeira Kouhai e seus Itens (fácil)](Questoes/C/FeiticeiraKouhaieseusItensfácil515.md)
   - [Palavras Preferidas](Questoes/C/PalavrasPreferidas458.md)
   - [Digame a frequência](Questoes/C/Digameafrequência188.md)
+  - [Percursos em árvores binárias: pré ordem](Questoes/C/Percursosemárvoresbináriaspréordem226.md)
+  - [Percursos em árvores binárias: em ordem](Questoes/C/Percursosemárvoresbináriasemordem369.md)
+  - [Percursos em árvores binárias: pós ordem](Questoes/C/Percursosemárvoresbináriaspósordem696.md)
+  - [Percursos transversais](Questoes/C/Percursostransversais931.md)
+  - [Árvores binárias de busca máximo](Questoes/C/Árvoresbináriasdebuscamáximo996.md)
+  - [Árvores binárias de busca mínimo](Questoes/C/Árvoresbináriasdebuscamínimo918.md)
+  - [Árvores binárias de busca altura](Questoes/C/Árvoresbináriasdebuscaaltura457.md)
+  - [Árvores binárias de busca inserção](Questoes/C/Árvoresbináriasdebuscainserção368.md)
+  - [Árvores binárias de busca remoção](Questoes/C/Árvoresbináriasdebuscaremoção941.md)
+  - [Eu vou estar lá!](Questoes/C/Euvouestarlá894.md)
+  - [Territórios Protegidos](Questoes/C/TerritóriosProtegidos308.md)
 
 * [Fundamentos e Arq de Comp](/Materias/fac.md)
   - [Olá Mundo](Questoes/RISCV/olamundo192.md)
@@ -147,8 +156,4 @@
     - [Gerando MEPA D](Questoes/Mepa/CompiladorPASCALGerandoMEPA650.md)
 
 * [Gerador MD](/create.html)
-
 * [Licença](/#LICENÇA)
-
-
-        
