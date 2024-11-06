@@ -1,6 +1,6 @@
 <center>
 
-# FUNDAMENTOS DE SISTEMAS OPERACIONAIS
+# Fundamentos de Sistemas Operacionais
 
 </center>
 
@@ -91,9 +91,24 @@ Para testar o seu código, você deve usar a criativade e implementar localmente
 #### **Código**
 
 ```c
+#include <stdio.h>
+#include <pthread.h>
 
+int work(int id);
+int count;
+pthread_mutex_t mut;
+typedef struct {
+    int vezes;
+} thread_arg;
 
-
+void *thread_func(void *arg){
+    thread_arg *tArgs = arg;
+    for(int i = 0; i < tArgs->vezes; i++){
+        int pid = __sync_fetch_and_add(&count, 1);
+        work(pid);
+    }
+    return 0;
+}
 ```
 
 <!-- tabs:end -->

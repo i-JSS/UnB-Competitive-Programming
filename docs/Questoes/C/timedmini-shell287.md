@@ -1,6 +1,6 @@
 <center>
 
-# FUNDAMENTOS DE SISTEMAS OPERACIONAIS
+# Fundamentos de Sistemas Operacionais
 
 </center>
 
@@ -126,9 +126,40 @@ O número entre parênteses ( fork(2) ) representa a página do manual que deve 
 
 #### **Código**
 
-```asm
+```c
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#include <string.h>
+#include <errno.h>
 
+int main() {
+    int statusSaida;
+    struct timeval inicio, final, total;
+    char comando[260], arg[260];
+    gettimeofday(&total, NULL);
+    while(scanf("%s %s", comando, arg) != EOF){
+        pid_t filho = fork();
+        gettimeofday(&inicio, NULL);
+        if(filho == 0){
+            execl(comando,comando, arg, NULL);
+            printf("> Erro: %s\n", strerror(errno));
+            fflush(stdout);
+            fclose(stdin);
+            exit(errno);
+        }
+        wait(&statusSaida);
+        gettimeofday(&final, NULL);
+        printf("> Demorou %.1lf segundos, retornou %d\n", ((final.tv_sec-inicio.tv_sec) + ((final.tv_usec-inicio.tv_usec)/1000000.0)), WEXITSTATUS(statusSaida));
+        fflush(stdout);
+    }
+    printf(">> O tempo total foi de %.1lf segundos\n", ((final.tv_sec-total.tv_sec) + ((final.tv_usec-total.tv_usec)/1000000.0)));
+    fflush(stdout);
+    exit(0);
+}
 
 ```
 

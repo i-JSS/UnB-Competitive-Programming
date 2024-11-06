@@ -1,6 +1,6 @@
 <center>
 
-# FUNDAMENTOS DE SISTEMAS OPERACIONAIS
+# Fundamentos de Sistemas Operacionais
 
 </center>
 
