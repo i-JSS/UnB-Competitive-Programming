@@ -2,7 +2,7 @@
 
 * [Manual](Documentos/Manual)
 
-* [Algoritmo e Programação de Comp](/Materias/apc.md)
+* [Algoritmos e Programação de Comp](/Materias/apc.md)
 * [Estrutura de Dados 1]()
 * [Estrutura de Dados 2]()
 * [Fundamentos e Arq de Comp](/Materias/fac.md)

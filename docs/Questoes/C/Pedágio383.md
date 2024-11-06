@@ -1,6 +1,6 @@
 <center>
 
-# Algoritmo e Programação de Computadores
+# Algoritmos e Programação de Computadores
 
 </center>
 

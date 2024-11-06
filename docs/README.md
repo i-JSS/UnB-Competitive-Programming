@@ -2,7 +2,7 @@
 
 ## Lista de matérias concluidas
 
-* [Algoritmo e Programação de Computadores (20/100)](/Materias/apc.md)
+* [Algoritmos e Programação de Computadores (20/100)](/Materias/apc.md)
 * [Estrutura de Dados 1 (0/100)]()
 * [Estrutura de Dados 2 (0/100)]()
 * [Fundamentos e Arquitetura de Computadores (100/100)](/Materias/fac.md)
