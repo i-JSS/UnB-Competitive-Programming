@@ -2,12 +2,12 @@
 
 ## Lista de matérias concluidas
 
-* [Algoritmos e Programação de Computadores (20/100)](/Materias/apc.md)
-* [Estrutura de Dados 1 (0/100)](/Materias/eda1.md)
-* [Estrutura de Dados 2 (0/100)](/Materias/eda2.md)
-* [Fundamentos e Arquitetura de Computadores (100/100)](/Materias/fac.md)
-* [Fundamentos de Sistemas Operacionais (100/100)](/Materias/fso.md)
-* [Compiladores 1 (100/100)](/Materias/compilas.md)
+* [Algoritmos e Programação de Computadores](/Materias/apc.md)
+* [Estrutura de Dados 1](/Materias/eda1.md)
+* [Estrutura de Dados 2](/Materias/eda2.md)
+* [Fundamentos e Arquitetura de Computadores](/Materias/fac.md)
+* [Fundamentos de Sistemas Operacionais](/Materias/fso.md)
+* [Compiladores 1](/Materias/compilas.md)
 
 ---
 
