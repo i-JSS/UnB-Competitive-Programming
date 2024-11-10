@@ -9,8 +9,9 @@
 ## Projeto Lógico de Banco de Dados (revisão)
 
 <div align="center">
-<iframe src="./PDFS/modulo1.pdf" width="100%" height="600px"></iframe>
+<iframe src="./assets/sbd2/modulo1.pdf" width="100%" height="600px"></iframe>
 </div>
+
 
 <details><summary>Projeto Revisão SBD2</summary>
 
@@ -24,4 +25,14 @@
 ![](./questoes/lista1/8.png)
 ![](./questoes/lista1/9.png)
 ![](./questoes/lista1/10.png)
+</details>
+
+<details><summary>Difíceis</summary>
+
+![](./questoes/dificeis1/1.png)
+![](./questoes/dificeis1/2.png)
+![](./questoes/dificeis1/3.png)
+![](./questoes/dificeis1/4.png)
+![](./questoes/dificeis1/5.png)
+![](./questoes/dificeis1/6.png)
 </details>
