@@ -1,13 +1,18 @@
-#### Imagine se algum maluco guardasse todas as questões já feitas por ele durante todo o curso, prazer a-moj :)
+#### Aqui eu guardo minhas anotações e estudos do curso engenharia de software da UnB.
 
 ## Lista de matérias concluidas
 
-* [Algoritmos e Programação de Computadores](/Materias/apc.md)
 * [Estrutura de Dados 1](/Materias/eda1.md)
 * [Estrutura de Dados 2](/Materias/eda2.md)
 * [Fundamentos e Arquitetura de Computadores](/Materias/fac.md)
 * [Fundamentos de Sistemas Operacionais](/Materias/fso.md)
 * [Compiladores 1](/Materias/compilas.md)
+
+## Lista de matérias em progresso
+
+* [Algoritmos e Programação de Computadores](/Materias/apc.md)
+* [Sistema de Banco de Dados 2](/Materias/sbd2.md)
+
 
 ---
 
