@@ -1,5 +1,4 @@
 * [](/)
-* [Manual](Documentos/Manual)
 * [Algoritmos e Programação de Comp](/Materias/apc.md)
   - [Olá Mundo](Questoes/C/OláMundo281.md)
   - [Soma 2](Questoes/C/Soma2216.md)
