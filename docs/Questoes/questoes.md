@@ -1,0 +1,204 @@
+# Questões Resolvidas
+
+> 100+ problemas resolvidos no juiz online da UnB ao longo do curso de Engenharia de Software.
+
+---
+
+## Algoritmos e Programação de Computadores (APC)
+
+| Questão |
+|---|
+| [Olá Mundo](Questoes/C/OláMundo281.md) |
+| [Soma 2](Questoes/C/Soma2216.md) |
+| [Hotel](Questoes/C/Hotel241.md) |
+| [Quadrados](Questoes/C/Quadrados215.md) |
+| [Pneu](Questoes/C/Pneu852.md) |
+| [Tomadas](Questoes/C/Tomadas178.md) |
+| [Pedágio](Questoes/C/Pedágio383.md) |
+| [Busca na Internet](Questoes/C/BuscanaInternet479.md) |
+| [Transporte](Questoes/C/Transporte948.md) |
+| [Distância de Manhattan](Questoes/C/DistânciadeManhattan359.md) |
+| [Tira teima](Questoes/C/Tirateima248.md) |
+| [Frota de Táxi](Questoes/C/FrotadeTáxi173.md) |
+| [Sedex](Questoes/C/Sedex872.md) |
+| [Flíper](Questoes/C/Flíper719.md) |
+| [Campeonato](Questoes/C/Campeonato572.md) |
+| [Vice campeão](Questoes/C/Vicecampeão772.md) |
+| [Receita de Bolo](Questoes/C/ReceitadeBolo335.md) |
+| [Cartas](Questoes/C/Cartas428.md) |
+| [Notas da prova](Questoes/C/Notasdaprova623.md) |
+| [Detectando Colisões](Questoes/C/DetectandoColisões787.md) |
+
+---
+
+## Estrutura de Dados 1 (EDA1)
+
+| Questão |
+|---|
+| [Problema: Troca](Questoes/C/ProblemaTroca287.md) |
+| [Número 91](Questoes/C/Número91176.md) |
+| [Move os Xs](Questoes/C/MoveosXs140.md) |
+| [RUMO9S Rumo aos 9s](Questoes/C/RUMO9SRumoaos9s205.md) |
+| [Soma dos dígitos](Questoes/C/Somadosdígitos382.md) |
+| [Fibonacci](Questoes/C/Fibonacci374.md) |
+| [Pares de caracteres](Questoes/C/Paresdecaracteres394.md) |
+| [Troca X por Y](Questoes/C/TrocaXporY716.md) |
+| [String ao contrário](Questoes/C/Stringaocontrário546.md) |
+| [Maior substring](Questoes/C/Maiorsubstring131.md) |
+| [Ultrapassa Minimamente](Questoes/C/UltrapassaMinimamente806.md) |
+| [Listas encadeadas busca](Questoes/C/Listasencadeadasbusca142.md) |
+| [Dividir listas encadeadas](Questoes/C/Dividirlistasencadeadas851.md) |
+| [Listas encadeadas impressão](Questoes/C/Listasencadeadasimpressão677.md) |
+| [Listas encadeadas inserção](Questoes/C/Listasencadeadasinserção229.md) |
+| [Mesclar listas encadeadas](Questoes/C/Mesclarlistasencadeadas796.md) |
+| [Listas encadeadas remoção](Questoes/C/Listasencadeadasremoção903.md) |
+| [Filas remoção de elementos](Questoes/C/Filasremoçãodeelementos473.md) |
+| [Filas remoção de elementos](Questoes/C/Filasremoçãodeelementos731.md) |
+| [Filas remoção de elementos](Questoes/C/Filasremoçãodeelementos386.md) |
+| [Filas inserção de elementos](Questoes/C/Filasinserçãodeelementos421.md) |
+| [Filas inserção de elementos](Questoes/C/Filasinserçãodeelementos204.md) |
+| [Filas inserção de elementos](Questoes/C/Filasinserçãodeelementos868.md) |
+| [Representação de filas em listas encadeadas](Questoes/C/Representaçãodefilasemlistasencadeadas557.md) |
+| [Cartas](Questoes/C/Cartas763.md) |
+| [String ao contrário](Questoes/C/Stringaocontrário897.md) |
+| [Botas](Questoes/C/Botas402.md) |
+| [Vivo ou Morto](Questoes/C/VivoouMorto182.md) |
+| [Expressões](Questoes/C/Expressões692.md) |
+| [Elevator Trouble](Questoes/C/ElevatorTrouble426.md) |
+| [Street Parade](Questoes/C/StreetParade802.md) |
+| [Filas remoção de elementos](Questoes/C/Filasremoçãodeelementos750.md) |
+| [Percursos em árvores binárias: em ordem](Questoes/C/Percursosemárvoresbináriasemordem111.md) |
+| [Percursos em árvores binárias: pós-ordem](Questoes/C/Percursosemárvoresbináriaspósordem620.md) |
+| [Percursos em árvores binárias: pré-ordem](Questoes/C/Percursosemárvoresbináriaspréordem447.md) |
+| [BOLHA](Questoes/C/BOLHA823.md) |
+| [SELEÇÃO](Questoes/C/SELEÇÃO270.md) |
+| [INSERÇÃO](Questoes/C/INSERÇÃO804.md) |
+| [Ordenação eficiente](Questoes/C/Ordenaçãoeficiente811.md) |
+| [Ordenação](Questoes/C/Ordenação156.md) |
+| [Ordenação eficiente](Questoes/C/Ordenaçãoeficiente934.md) |
+| [Busca Binária](Questoes/C/BuscaBinaria577.md) |
+| [Busca geral num conjunto não ordenado](Questoes/C/Buscageralnumconjuntonãoordenado539.md) |
+| [Número Proibido](Questoes/C/NúmeroProibido965.md) |
+| [Pesquisa de instruções](Questoes/C/Pesquisadeinstruções793.md) |
+
+---
+
+## Estrutura de Dados 2 (EDA2)
+
+| Questão |
+|---|
+| [Elementos maiores que a média](Questoes/C/Elementosmaioresqueamédia352.md) |
+| [Cinema](Questoes/C/Cinema543.md) |
+| [Encontro Politécnico](Questoes/C/EncontroPolitécnico120.md) |
+| [Conversa não tão secreta](Questoes/C/Conversanãotãosecreta935.md) |
+| [Conversa não tão secreta](Questoes/C/Conversanãotãosecreta611.md) |
+| [Pesquisa de instruções](Questoes/C/Pesquisadeinstruções349.md) |
+| [Dígitos](Questoes/C/Dígitos163.md) |
+| [Listas encadeadas impressão](Questoes/C/Listasencadeadasimpressão210.md) |
+| [Listas encadeadas inserção](Questoes/C/Listasencadeadasinserção199.md) |
+| [Listas encadeadas remoção](Questoes/C/Listasencadeadasremoção502.md) |
+| [Listas encadeadas busca](Questoes/C/Listasencadeadasbusca370.md) |
+| [Mesclar listas encadeadas](Questoes/C/Mesclarlistasencadeadas910.md) |
+| [Ordenação eficiente](Questoes/C/Ordenaçãoeficiente706.md) |
+| [Ordenação múltipla](Questoes/C/Ordenaçãomúltipla331.md) |
+| [kk página](Questoes/C/kkpágina369.md) |
+| [Tabelas Hash](Questoes/C/TabelasHash516.md) |
+| [Feiticeira Kouhai e seus Itens (fácil)](Questoes/C/FeiticeiraKouhaieseusItensfácil515.md) |
+| [Palavras Preferidas](Questoes/C/PalavrasPreferidas458.md) |
+| [Digame a frequência](Questoes/C/Digameafrequência188.md) |
+| [Percursos em árvores binárias: pré ordem](Questoes/C/Percursosemárvoresbináriaspréordem226.md) |
+| [Percursos em árvores binárias: em ordem](Questoes/C/Percursosemárvoresbináriasemordem369.md) |
+| [Percursos em árvores binárias: pós ordem](Questoes/C/Percursosemárvoresbináriaspósordem696.md) |
+| [Percursos transversais](Questoes/C/Percursostransversais931.md) |
+| [Árvores binárias de busca máximo](Questoes/C/Árvoresbináriasdebuscamáximo996.md) |
+| [Árvores binárias de busca mínimo](Questoes/C/Árvoresbináriasdebuscamínimo918.md) |
+| [Árvores binárias de busca altura](Questoes/C/Árvoresbináriasdebuscaaltura457.md) |
+| [Árvores binárias de busca inserção](Questoes/C/Árvoresbináriasdebuscainserção368.md) |
+| [Árvores binárias de busca remoção](Questoes/C/Árvoresbináriasdebuscaremoção941.md) |
+| [Eu vou estar lá!](Questoes/C/Euvouestarlá894.md) |
+| [Territórios Protegidos](Questoes/C/TerritóriosProtegidos308.md) |
+| [Classificados de Sementes](Questoes/C/ClassificadosdeSementes625.md) |
+| [Gerenciando Colônias - Versão fácil](Questoes/C/GerenciandoColôniasVersãofácil917.md) |
+| [Árvore Binária Balanceada](Questoes/C/ÁrvoreBináriaBalanceada616.md) |
+| [Gerenciando Colônias](Questoes/C/GerenciandoColônias667.md) |
+| [Selecionando Componentes](Questoes/C/SelecionandoComponentes408.md) |
+| [Menores Placas](Questoes/C/MenoresPlacas117.md) |
+| [Amor pelas Maçãs Verdes](Questoes/C/AmorpelasMaçãsVerdes966.md) |
+| [Mapa do Meistre](Questoes/C/MapadoMeistre905.md) |
+| [Árvore Genealógica](Questoes/C/ÁrvoreGenealógica274.md) |
+
+---
+
+## Fundamentos e Arquitetura de Computadores (FAC)
+
+| Questão |
+|---|
+| [Olá Mundo](Questoes/RISCV/olamundo192.md) |
+| [Soma 2](Questoes/RISCV/soma2210.md) |
+| [Operações aritméticas e lógicas básicas](Questoes/RISCV/operacoesaritimeticaselogicasbasicas102.md) |
+| [Maior número](Questoes/RISCV/maiornumero183.md) |
+| [Vestibular](Questoes/RISCV/vestibular438.md) |
+| [Maiúsculas e minúsculas](Questoes/RISCV/maiusculaseminusculas487.md) |
+| [Teste de primalidade](Questoes/RISCV/testedeprimalidade812.md) |
+| [Aritmética de Inteiros](Questoes/RISCV/aritimeticadeinteiros284.md) |
+| [Dissecando um Float](Questoes/RISCV/dissecandoumfloat827.md) |
+| [Palíndromos](Questoes/RISCV/Palíndromos933.md) |
+
+---
+
+## Fundamentos de Sistemas Operacionais (FSO)
+
+| Questão | Linguagem |
+|---|---|
+| [Escalonador round robin](Questoes/C/escalonadorround-robin283.md) | C |
+| [Criando um Zumbi](Questoes/C/CriandoumZumbi671.md) | C |
+| [Timed mini shell](Questoes/C/timedmini-shell287.md) | C |
+| [Distribuição de trabalhos: pthreads e mutex](Questoes/C/distribuicaodetrabalhopthreadsemutex798.md) | C |
+| [Escalonador FCFS](Questoes/C/EscalonadorFCFS926.md) | C++ |
+| [Substituição de páginas: FIFO](Questoes/C/SubstituiçãodepáginasFIFO103.md) | C++ |
+| [Substituição de páginas: LRU](Questoes/C/SubstituiçãodepáginasLRU997.md) | C++ |
+
+---
+
+## Compiladores 1
+
+### Regex
+
+| Questão |
+|---|
+| [Aracnofobia](Questoes/Grepe/Aracnofobia634.md) |
+| [Date: Dê você o Match](Questoes/Grepe/DateDêvocêoMatch157.md) |
+| [Desmatriculados](Questoes/Grepe/Desmatriculados760.md) |
+| [Fantática máquina de palavras](Questoes/Grepe/Fantáticamáquinadepalavras226.md) |
+| [Frases entre Tags](Questoes/Grepe/FrasesentreTags935.md) |
+| [Ímpares com RegEx](Questoes/Grepe/ÍmparescomRegEx797.md) |
+| [Morse Regex](Questoes/Grepe/MorseRegex790.md) |
+| [Números Positivos](Questoes/Grepe/NúmerosPositivos955.md) |
+| [Números Positivos ou Não](Questoes/Grepe/NúmerosPositivosouNão274.md) |
+| [Olá no Mundo das RegEx 2](Questoes/Grepe/OlánoMundodasRegEx2275.md) |
+| [Olá no Mundo das RegEx](Questoes/Grepe/OlánoMundodasRegEx348.md) |
+| [Palavras Censuradas](Questoes/Grepe/PalavrasCensuradas459.md) |
+| [Pares com RegEx](Questoes/Grepe/ParescomRegEx156.md) |
+| [Problema 101](Questoes/Grepe/Problema101970.md) |
+| [Quebrando senhas com RegEx](Questoes/Grepe/QuebrandosenhascomRegEx833.md) |
+| [Validação dos horários](Questoes/Grepe/Validaçãodoshorários676.md) |
+
+### Pascal
+
+| Questão |
+|---|
+| [Ajude Aparecido](Questoes/Pascal/AjudeAparecido669.md) |
+| [Ajude Aparecido](Questoes/Pascal/AjudeAparecido818.md) |
+| [Conversão de temperaturas](Questoes/Pascal/Conversãodetemperaturas838.md) |
+| [Olá Mundo](Questoes/Pascal/OláMundo422.md) |
+| [Soma 2](Questoes/Pascal/Soma2844.md) |
+| [Soma N](Questoes/Pascal/SomaN189.md) |
+
+### MEPA
+
+| Questão |
+|---|
+| [Gerando MEPA A](Questoes/Mepa/CompiladorPASCALGerandoMEPA551.md) |
+| [Gerando MEPA B](Questoes/Mepa/CompiladorPASCALGerandoMEPA108.md) |
+| [Gerando MEPA C](Questoes/Mepa/CompiladorPASCALGerandoMEPA204.md) |
+| [Gerando MEPA D](Questoes/Mepa/CompiladorPASCALGerandoMEPA650.md) |

@@ -1,27 +1,48 @@
-#### Aqui eu guardo minhas anotações e estudos do curso engenharia de software da UnB.
+# João Ginuino — UnB Solutions & Notes
 
-## Lista de matérias concluidas
+> Computer Engineering student at the University of Brasília (UnB).
+> This repository stores my solutions, notes, and study material accumulated throughout the course — and grows every semester.
 
-* [Estrutura de Dados 1](/Materias/eda1.md)
-* [Estrutura de Dados 2](/Materias/eda2.md)
-* [Fundamentos e Arquitetura de Computadores](/Materias/fac.md)
-* [Fundamentos de Sistemas Operacionais](/Materias/fso.md)
-* [Compiladores 1](/Materias/compilas.md)
-
-## Lista de matérias em progresso
-
-* [Algoritmos e Programação de Computadores](/Materias/apc.md)
-* [Sistema de Banco de Dados 2](/Materias/sbd2.md)
-
-
+**100+ problems solved · 5 languages · 6 disciplines · 3 programming marathons**
+ 
 ---
 
+## Completed Disciplines
+
+| Discipline                                         | Language(s)         |
+|----------------------------------------------------|---------------------|
+| [Data Structures 1](/Materias/eda1.md)             | C                   |
+| [Data Structures 2](/Materias/eda2.md)             | C, C++              |
+| [Computer Architecture (FAC)](/Materias/fac.md)    | RISC-V Assembly     |
+| [Operating Systems Fundamentals](/Materias/fso.md) | C, C++              |
+| [Compilers 1](/Materias/compilas.md)               | Regex, Pascal, MEPA |
+
+## In Progress
+
+| Discipline                                                  | Language(s) |
+|-------------------------------------------------------------|-------------|
+| [Algorithms & Computer Programming (APC)](/Materias/apc.md) | C           |
+| [Database Systems 2 (SBD2)](/Materias/sbd2.md)              | SQL         |
+ 
+---
+
+## 🏆 Programming Marathons
+
+| Event                          | Edition | Date     |
+|--------------------------------|---------|----------|
+| UnB Programming Marathon       | XIII    | Nov 2025 |
+| Cerrado Programming Marathon   | II      | May 2026 |
+| UnBalloon Programming Marathon | VII     | May 2026 |
+
+ 
+---
 
 <center>
 
-# LICENÇA
+# LICENSE
 
-## Unlicense license
+## Unlicense
+
 
 ```
 This is free and unencumbered software released into the public domain.

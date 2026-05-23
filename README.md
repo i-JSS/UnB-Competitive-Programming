@@ -22,7 +22,7 @@ Collection of competitive programming solutions and coursework problems solved t
 | Operating Systems Fundamentals (FSO)    | 7        |
 | Compilers 1                             | 28       |
 
-## Marathons
+## 🏆 Programming Marathons
 
 | Event                          | Edition | Date     |
 |--------------------------------|---------|----------|

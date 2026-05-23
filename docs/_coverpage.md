@@ -1,8 +1,8 @@
-
 # JSS-UnB
 
+**100+ questões resolvidas · 5 linguagens · 6 disciplinas · 3 maratonas**
 
-[Resumos](/#BEM-VINDO)
-[Questões Feitas](Documentos/Manual#MANUAL)
+[Questões](Questoes/questoes.md)
+[Maratonas](/#🏆-programming-marathons)
 
-![logo](assets/coringa.png)
+![logo](assets/logo_2.svg)
