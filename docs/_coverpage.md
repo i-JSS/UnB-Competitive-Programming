@@ -1,8 +1,8 @@
-# JSS-UnB
+# João Ginuino - UnB
 
-**100+ questões resolvidas · 5 linguagens · 6 disciplinas · 3 maratonas**
+**100+ problems solved · 5 languages · 6 disciplines · 3 marathons**
 
-[Questões](Questoes/questoes.md)
-[Maratonas](/#🏆-programming-marathons)
+[Problems](Questoes/questoes.md)
+[Marathons](/#🏆-programming-marathons)
 
 ![logo](assets/logo_2.svg)
